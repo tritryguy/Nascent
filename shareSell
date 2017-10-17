@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+
+# shareSell
+from sys import argv
+
+def shareSell(sharePrice,numShares):
+    def monetize(n):
+	    n = ("$"+str(format(float(n), ',.2f')))
+	    return n
+
+    sharePrice = float(sharePrice)
+    numShares = int(numShares)
+    dbTrade = 18
+    pmargin = 1.17
+    cTg = 1.3
+    print (monetize(((sharePrice * numShares * cTg) + dbTrade) * pmargin / numShares))
+    
+
+
+shareSell(argv[1],argv[2])
+
