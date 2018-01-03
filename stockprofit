@@ -1,0 +1,31 @@
+#!/usr/bin/python3
+from sys import argv
+# stockwatch  --rename stockprofit
+
+
+#Need to pull from web
+Current_sharePrice = int(argv[1])
+boughtPrice = int(argv[2])
+num_shares= int(argv[3])
+
+##
+tax = 0.3
+dbTrade = 18
+shareGain = format(((Current_sharePrice / boughtPrice -1) *100), '.1f') +"%"
+#shareGain = int((Current_sharePrice / boughtPrice -1) *100)
+grossProfit = (Current_sharePrice - boughtPrice) * num_shares
+netProfit = grossProfit - ( grossProfit * tax ) - dbTrade
+pure_net_percent = format(((netProfit/(boughtPrice * num_shares)) * 100), '.1f') + "%"
+print ("Gross: $%r ----- Net: $%r ----- Gain: %s ------- PNP : %s" % (grossProfit,netProfit,shareGain,pure_net_percent))
+
+
+"""
+color code
+green, blue, red, yellow, 
+if PNP:
+PNP < 0 --red
+0<PNP<3.0 --yellow
+3.0<=PNP<=8.2 --green 1
+8.3<=PNP<=16.9 --green 2
+PNP > 17 -- Blue
+"""

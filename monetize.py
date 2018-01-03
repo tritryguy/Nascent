@@ -15,12 +15,4 @@ def monetize(n):
 	n = ("$"+str(format(float(n), ',.2f')))
 	return n
 
-print (monetize(input("numm=== ")))
 
-"""
-# Format Practice
-
-n = input("Num=== ")
-print(n)
-print ("$"+str(format(float(n), ',.2f')))
-"""

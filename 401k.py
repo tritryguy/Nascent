@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 
 # ma-6k
+from sys import argv
+script, invest, apy, years = argv
+
 print("\n\n\n\t\t\033[1;33m$$$\033[1;32m 401k \033[1;33m$$$\033[0m\n\n")
 
 """
@@ -27,4 +30,5 @@ def mak(init,rate,term):
 		print ("Year " + str(num) + ": " + monetize(init))
 		init = init  + og_init
 
-mak(6000, 7, 9)
+
+mak(int(invest), int(apy), int(years))
