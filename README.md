@@ -19,5 +19,6 @@ with cost of trade and Captiol Gains Tax
 ## stockprofit
 Profit Calculator
 Current Price, Cost/Bought Price, Number of Shares
-shows Gross Gain, Net Gain (Gross - Trade Cost(9*2) - Tax(30%), Perctent Gain, Net % Gain(Pure Net Percent)
-
+shows Gross Gain, Net Gain (Gross - Trade Cost(9\*2) - Tax(30%), Perctent Gain, Net % Gain(Pure Net Percent)
+## IRA
+IRA by Year
