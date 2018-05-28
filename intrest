@@ -4,6 +4,8 @@
 """
 Simple Command Line intrest Calqulator
 """
+# >>>>>>>>>>>  add useage dialog
+
 def monetize(num):
 	num = ("$"+str(format(float(num), ',.2f')))
 	return num
