@@ -1,6 +1,6 @@
 # py3-market
 Python3 scripts for Investing
-> Repo has been moved to Bitbucket
+
 
 
 ## 401k.py
