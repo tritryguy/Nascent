@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+
+# stockMath
+
+
+
+def phormat(n):
+	n = (format(float(n), ',.2f'))
+	return n
+def monetize(n):
+	n = ("$"+str(format(float(n), ',.2f')))
+	return n
+
+
+#Take price per share, num shre or dollars and give profit need @ min,17% and 32%
+sharePrice = int(input("\033[0;33mShare Price \033[0;34m>>> \033[0m"))
+numShare = int(input("\033[0;33m# of Shares \033[0;34m>>> \033[0m"))
+tradePrice=16
+
+investmet = sharePrice * numShare
+minSale = (sharePrice * numShare + tradePrice) / numShare
+x17Sale = (sharePrice * numShare + tradePrice) * 1.17 / numShare
+x34Sale = (sharePrice * numShare + tradePrice) * 1.34 / numShare
+
+#033[
+#gree1;32m
+#gold1;33m
+#\033[0m
+
+
+x17profit = (x17Sale - minSale) * numShare
+x34profit = (x34Sale - minSale )* numShare
+
+
+print("\033[0;34mInvestment = \033[1;32m" + monetize(investmet))
+print()
+print("\033[1;34mRate\tSale@\tProfit")
+print ("\033[0;33mmin\t\033[1;33m" + monetize(minSale) + "\t\033[1;32m$0")
+print ("\033[0;33m@ 17%\t\033[1;33m" + monetize(x17Sale)+ "\t\033[1;32m" + monetize(x17profit))
+print ("\033[0;33m@ 32%\t\033[1;33m" + monetize(x34Sale) +"\t\033[1;32m" +  monetize(x34profit))
+
+
