@@ -16,7 +16,7 @@ place holder for web crawler
 
 ## monetize.py
 def used to convert floats to $$$
-
+**Useage** as a *snipet*
 ## shareSell
 Calculator for when to sale at 17% profit 
 with cost of trade and Captiol Gains Tax
