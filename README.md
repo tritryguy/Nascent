@@ -1,4 +1,6 @@
-# py3-market
+py3-Finance Scripts
+====================
+
 Python3 scripts for Investing
 
 
