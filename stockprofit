@@ -2,6 +2,12 @@
 from sys import argv
 # stockwatch  --rename stockprofit
 
+"""
+USEAGE
+
+SCRIPT  [Current_sharePrice] [boughtPrice] [num_shares]
+
+"""
 
 #Need to pull from web
 Current_sharePrice = int(argv[1])

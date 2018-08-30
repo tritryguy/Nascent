@@ -2,7 +2,13 @@
 
 # stockMath
 
+"""
+A prompted profit guide for stock prices
 
+- trade price = 16 (2*8)
+- even,17%,32% as markers
+
+"""
 
 def phormat(n):
 	n = (format(float(n), ',.2f'))

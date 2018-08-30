@@ -1,4 +1,20 @@
 #!/usr/bin/python3
+"""
+
+A Program for knowing when to sell at profit
+
+-$18 ($9*2) for trade cost and overhead
+- 17% as profit margin
+- 30% captial gains tax
+
+USEAGE
+
+SCRIPT [Price Bought] [Number of Shares]
+
+
+"""
+
+
 
 # shareSell
 from sys import argv

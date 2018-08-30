@@ -1,5 +1,14 @@
 #!/usr/bin/python3
 
+"""
+USEAGE
+
+- Amount is standard @max (%5500)
+
+- intrest rate is a given 7% (0.07)
+"""
+
+
 # 35IRA
 def monetize(n):
 	n = ("$"+str(format(float(n), ',.2f')))

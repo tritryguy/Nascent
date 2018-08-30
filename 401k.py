@@ -1,5 +1,12 @@
 #!/usr/bin/python3
 
+"""
+USEAGE
+
+[Investment] [APY/Intrest rate] [Number of years]
+
+"""
+
 # ma-6k
 from sys import argv
 script, invest, apy, years = argv
