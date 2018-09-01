@@ -1,5 +1,7 @@
-# py3-market
-Python3 scripts for Investing
+Nascent
+========
+
+> Python3 scripts for Investing & Finance
 
 
 
