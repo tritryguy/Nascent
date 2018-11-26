@@ -19,23 +19,25 @@ intrest = int(input("\n\033[1;32mIntrest \033[1;33m>>>\033[0m "))
 term_lenght = int(input("\n\033[1;32mTerm \033[1;33m>>>\033[0m "))
 """
 
+
 def monetize(n):
-	n = ("$"+str(format(float(n), ',.2f')))
-	return n
+    n = ("$" + str(format(float(n), ',.2f')))
+    return n
 
-def mak(init,rate,term):
-	def monetize(n):
-		n = ("$"+str(format(float(n), ',.2f')))
-		return n
 
-	num = 0
-	og_init = init
+def mak(init, rate, term):
+    def monetize(n):
+        n = ("$" + str(format(float(n), ',.2f')))
+        return n
 
-	while num < term:
-		num += 1
-		init = init * (rate / 100 +1 )
-		print ("Year " + str(num) + ": " + monetize(init))
-		init = init  + og_init
+    num = 0
+    og_init = init
+
+    while num < term:
+        num += 1
+        init = init * (rate / 100 + 1)
+        print("Year " + str(num) + ": " + monetize(init))
+        init = init + og_init
 
 
 mak(int(invest), int(apy), int(years))

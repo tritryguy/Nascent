@@ -11,8 +11,8 @@ Formats int() to money form
 3.) ',' at 3 zeros
 
 """
+
+
 def monetize(n):
-	n = ("$"+str(format(float(n), ',.2f')))
-	return n
-
-
+    n = ("$" + str(format(float(n), ',.2f')))
+    return n

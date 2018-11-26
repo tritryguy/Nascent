@@ -4,10 +4,10 @@
 
 print("\n\n\t\t\tzbar1\n\n")
 
-principale=int(input("\t$$$$ >>>  "))
-pips=int(input("\tpips >>>  "))
+principale = int(input("\t$$$$ >>>  "))
+pips = int(input("\tpips >>>  "))
 
-gains = principale * (pips/1000)
+gains = principale * (pips / 1000)
 
 print(gains)
 
