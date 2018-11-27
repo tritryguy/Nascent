@@ -15,25 +15,25 @@ SCRIPT [Price Bought] [Number of Shares]
 """
 
 
-
 # shareSell
 from sys import argv
 
-def shareSell(sharePrice,numShares):
+
+def shareSell(sharePrice, numShares):
     def monetize(n):
-	    n = ("$"+str(format(float(n), ',.2f')))
-	    return n
+        n = ("$" + str(format(float(n), ',.2f')))
+        return n
 
     sharePrice = float(sharePrice)
     numShares = int(numShares)
-    dbTrade = 18 # cost of buy & sell trade
-    pmargin = 1.17 #profit margin
-    cTg = 1.3 #capitol tax gain
-    print (monetize(((sharePrice * numShares * cTg) + dbTrade) * pmargin / numShares))
-    
-#bad math
-#profit = tradecost(18) tax(30%) profit-margin(17%)
+    dbTrade = 18  # cost of buy & sell trade
+    pmargin = 1.17  # profit margin
+    cTg = 1.3  # capitol tax gain
+    print(monetize(((sharePrice * numShares * cTg) + dbTrade) * pmargin / numShares))
+
+# bad math
+# profit = tradecost(18) tax(30%) profit-margin(17%)
 # the tax is throwing it all off
 
-shareSell(argv[1],argv[2])
 
+shareSell(argv[1], argv[2])

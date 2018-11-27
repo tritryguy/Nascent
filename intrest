@@ -6,9 +6,11 @@ Simple Command Line intrest Calqulator
 """
 # >>>>>>>>>>>  add useage dialog
 
+
 def monetize(num):
-	num = ("$"+str(format(float(num), ',.2f')))
-	return num
+    num = ("$" + str(format(float(num), ',.2f')))
+    return num
+
 
 print("\n\n\n\t\t\033[1;33m$$$\033[1;32m INTREST \033[1;33m$$$\033[0m\n\n")
 
@@ -20,10 +22,9 @@ term_lenght = int(input("\n\033[1;32mTerm \033[1;33m>>>\033[0m "))
 
 n = 0
 while n < int(term_lenght):
-	n += 1
-	turd = invest_ammount * (intrest / 100 + 1)
-	gain = turd - invest_ammount
-	invest_ammount = turd
-	print ("Term " + str(n) + ": " + monetize(turd) + " ----- Gain: " + monetize(gain))
-
-
+    n += 1
+    turd = invest_ammount * (intrest / 100 + 1)
+    gain = turd - invest_ammount
+    invest_ammount = turd
+    print("Term " + str(n) + ": " + monetize(turd) +
+          " ----- Gain: " + monetize(gain))
