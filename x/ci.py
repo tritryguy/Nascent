@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# ci
+# ci -- Compound interest
 
 def monetize(n):
 	n = ("$"+str(format(float(n), ',.2f')))

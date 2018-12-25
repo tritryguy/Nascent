@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# apy
+# apy -- Annual Percentage Yield
 
 # ci
 

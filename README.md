@@ -1,4 +1,4 @@
-# Nascent
+# Scripts
 
 > Python3 scripts for Investing & Finance
 
