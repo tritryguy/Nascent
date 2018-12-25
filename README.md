@@ -9,7 +9,7 @@ A simple 401k calculator
 
 ## interest
 
-Calculates interest
+Calculates interest  
 no argvs it prompts for input
 
 ## MarketPY.py
@@ -23,7 +23,7 @@ def used to convert floats to $$$
 
 ## shareSell
 
-Calculator for when to sale at 17% profit
+Calculator for when to sale at 17% profit  
 with cost of trade and Capitol Gains Tax
 
 ## stockprofit
