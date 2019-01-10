@@ -7,7 +7,6 @@ USEAGE
 
 """
 
-# ma-6k
 from sys import argv
 script, invest, apy, years = argv
 
@@ -39,5 +38,5 @@ def mak(init, rate, term):
         print("Year " + str(num) + ": " + monetize(init))
         init = init + og_init
 
-
+#    #   #
 mak(int(invest), int(apy), int(years))

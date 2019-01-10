@@ -8,13 +8,9 @@ USEAGE
 - intrest rate is a given 7% (0.07)
 """
 
-
-# 35IRA
 def monetize(n):
     n = ("$" + str(format(float(n), ',.2f')))
     return n
-
-###
 
 
 amt = 5500  # int(input("Ammount >>> "))
