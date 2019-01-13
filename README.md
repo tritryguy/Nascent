@@ -2,7 +2,7 @@
 
 > Python3 scripts for Investing & Finance
 
-## 401k.py
+## 401k
 
 A simple 401k calculator  
 **Usage**: 401k [Investment amount, APY, number of years]
@@ -12,11 +12,11 @@ A simple 401k calculator
 Calculates interest  
 no argvs it prompts for input
 
-## MarketPY.py
+## MarketPY
 
 place holder for web crawler
 
-## monetize.py
+## monetize
 
 def used to convert floats to $$$  
 **Usage** as a _snipet_
