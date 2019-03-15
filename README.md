@@ -3,12 +3,14 @@
 > Python3 scripts for Investing & Finance
 
 ## 401k
-A simple 401k calculator  
+A simple 401k calculator
+
 **Usage**: 401k [Investment amount, APY, number of years]
 
 
 ## interest
-Calculates interest  
+Calculates interest
+
 no argvs it prompts for input
 
 ## MarketPY
@@ -16,19 +18,22 @@ place holder for web crawler
 
 
 ## monetize
-def used to convert floats to $$$  
+def used to convert floats to $$$
+
 **Usage** as a _snipet_
 
 
 ## shareSell
-Calculator for when to sale at 17% profit  
+Calculator for when to sale at 17% profit
+
 with cost of trade and Capitol Gains Tax
 
 
 ## stockprofit
-Profit Calculator  
+Profit Calculator
 
-Current Price, Cost/Bought Price, Number of Shares  
+Current Price, Cost/Bought Price, Number of Shares
+
 shows Gross Gain, Net Gain (Gross - Trade Cost(9\*2) - Tax(30%), Percent Gain, Net % Gain(Pure Net Percent)
 
 
