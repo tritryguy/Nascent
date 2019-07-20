@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""
 
+"""
 A Program for knowing when to sell at profit
 
 -$18 ($9*2) for trade cost and overhead
@@ -10,8 +10,6 @@ A Program for knowing when to sell at profit
 USEAGE
 
 SCRIPT [Price Bought] [Number of Shares]
-
-
 """
 
 
